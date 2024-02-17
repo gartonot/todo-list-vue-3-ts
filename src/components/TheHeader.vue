@@ -32,12 +32,28 @@ const inputValue = ref('');
 <style lang="scss" scoped>
 .header {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 
   &__search {
-    margin-left: auto;
+    order: 1;
+    width: 100%;
+
+    @include media-mobile {
+      order: 0;
+      width: fit-content;
+      margin-left: auto;
+    }
   }
   &__button-add {
-    margin-left: 10px;
+    margin-left: auto;
+    font-size: 12px;
+
+    @include media-mobile {
+      margin-left: 10px;
+      font-size: 16px;
+    }
   }
 }
 </style>
