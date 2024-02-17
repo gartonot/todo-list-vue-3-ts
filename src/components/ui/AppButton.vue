@@ -27,7 +27,6 @@ const buttonComponent: TButton = props.href.length ? 'a' : 'button'
 
 <style lang="scss" scoped>
 .button {
-  cursor: pointer;
   background-color: transparent;
   padding: 11px 20px;
   color: $color-white;

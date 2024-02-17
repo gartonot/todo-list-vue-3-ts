@@ -80,7 +80,6 @@ const clearInput = () => {
   height: var(--size);
   display: grid;
   place-items: center;
-  cursor: pointer;
 }
 .inner-append-icon {
   --size: 20px;
