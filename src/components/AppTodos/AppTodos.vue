@@ -43,8 +43,7 @@ todoList = [...todoList, ...todoList, ...todoList, ...todoList, ...todoList];
   <section class="container">
     <h1>Список задач</h1>
     <!-- Filter --> 
-    <!-- TaskList -->
-    
+
     <div class="todo-list">
       <TodoItem
         v-for="todo in todoList"

@@ -41,7 +41,6 @@ const actionToggler = () => actionsIsOpen.value = !actionsIsOpen.value
 <template>
   <!-- TODO: Close actions panel when click outside card -->
   <article class="todo">
-    {{ todo.status }}
     <header class="todo__header">
       <div class="category">
         {{ todo.category.name }}
@@ -158,6 +157,7 @@ const actionToggler = () => actionsIsOpen.value = !actionsIsOpen.value
       position: absolute;
       z-index: 1;
       opacity: 0;
+      visibility: hidden;
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -183,6 +183,7 @@ const actionToggler = () => actionsIsOpen.value = !actionsIsOpen.value
 
     &.actions-open .actions__list {
       opacity: 1;
+      visibility: visible;
     }
   }
 }
