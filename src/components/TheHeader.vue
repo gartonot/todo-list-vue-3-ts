@@ -10,7 +10,7 @@ const inputValue = ref('');
 </script>
 
 <template>
-  <header class="header">
+  <header class="header container">
     <TheLogo /> 
     <AppInput 
       v-model:value="inputValue"
