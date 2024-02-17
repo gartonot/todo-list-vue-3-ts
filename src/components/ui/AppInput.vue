@@ -76,7 +76,6 @@ const clearInput = () => {
   top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
-  padding: 0;
   width: var(--size);
   height: var(--size);
   display: grid;
