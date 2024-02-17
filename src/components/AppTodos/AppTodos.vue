@@ -11,7 +11,7 @@ let todoList: ITodoItem[] = [
       name: EnumCategory.DESIGN,
       color: EnumCategory.DESIGN_COLOR,
     },
-    status: EnumStatusTodo.TODO,
+    status: EnumStatusTodo.TO_DO,
     text: 'Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать — помочь благотворительному фонду «Луч Добра». Благодаря их труду ежегодно сотни питомцев находят свой новый дом.',
   },
   { 
