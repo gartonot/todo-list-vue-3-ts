@@ -11,8 +11,8 @@ const inputValue = ref('');
 
 <template>
   <header class="header container">
-    <TheLogo /> 
-    <AppInput 
+    <TheLogo tabindex="-1" />
+    <AppInput
       v-model:value="inputValue"
       type="search"
       placeholder="Поиск по задачам.."

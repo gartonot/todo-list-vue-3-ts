@@ -43,10 +43,10 @@ const clearInput = () => {
 </script>
 
 <template>
-  <label class="label" @click="focusInput()">
+  <label class="label" @click="focusInput()" tabindex="-1">
     <span v-if="labelIsShown" class="label__text">{{ label }}</span>
     <div class="label__input-wrapper">
-      <button v-if="innerAppendIconIsShown" class="icon inner-append-icon">
+      <button v-if="innerAppendIconIsShown" tabindex="-1" class="icon inner-append-icon">
         <slot name="innerAppendIcon" />
       </button>
       <input 
