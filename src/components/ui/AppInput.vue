@@ -111,6 +111,7 @@ const clearInput = () => {
     background-color: rgba($color-black, 4%);
     border: 1px solid transparent;
     border-radius: 4px;
+    width: 100%;
 
     &.input-with-append-icon {
       padding-left: 40px;
