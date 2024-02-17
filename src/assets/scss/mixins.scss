@@ -1,0 +1,10 @@
+@mixin multiline-clip($line-height: 16px, $max-lines: 1) {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $max-lines;
+  line-height: $line-height;
+  height: calc($line-height  * $max-lines);
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
